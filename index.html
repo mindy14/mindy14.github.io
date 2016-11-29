@@ -2,12 +2,8 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Random Login Form</title>
-  
-  
-  
-      <style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+  <title>Random Login Form</title> 
+<style>
       @import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
 
@@ -18,7 +14,7 @@ body{
 	width:100%;
 	height:100%;
 	color: #fff;
-	font-family: Arial;
+	font-family:'Exo', Arial;
 	font-size: 12px;
 }
 
@@ -198,19 +194,7 @@ body{
 				<button type="submit" onclick= check(this.form)>Login</button>
 				</form>
 		</div>
-		<script language="javascript">
-function check(form)
-{
-	if(form.userid.value == "srmmedical" && form.pswrd.value == "admin")
-	{
-		window.open('https://form.jotform.me/63132911161445')
-	}
-	else
-	{
-		alert("The Username and Password you entered do not match.")
-	}
-}
-</script>
+  <script src='verification.js'></script>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <div class="footer">
 	Design: Harminder Kaur
